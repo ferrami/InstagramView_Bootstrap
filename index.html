@@ -22,9 +22,9 @@
             <span src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="30" class="d-inline-block align-text-top"><i class="fa-brands fa-instagram"></i><span class="m-1">Instragram</span></span>
           </a>
           <form class="d-flex">
-            <!-- Button that activates MODAL -->
+            
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
-            <!-- Dropdown menu -->
+            
             <div class="btn-group ms-2">
                 <button type="button" class="btn btn-secondary dropdown-toggle input-group-text" data-bs-toggle="dropdown" aria-expanded="false">
                     <span><i class="bi bi-gear-fill"></i></span>
@@ -39,7 +39,7 @@
           </form>
         </div>
 
-        <!-- Start of THE MODAL -->
+        
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -64,76 +64,64 @@
               </div>
             </div>
         </div>
-        <!-- End of THE MODAL -->
-
     </nav>
-    <!-- Navigation bar end-->
-    </div>
-
-    <!-- Navbar for tabs -->
+  
+    
     <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-        <!-- Grid View -->
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="bi bi-grid-3x3" style="color: #9ca3b0;"></i></button>
-        </li>
-        <!-- Single Post View -->
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="bi bi-square" style="color: #9ca3b0;"></i></button>
-        </li>
-      </ul>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="bi bi-grid-3x3" style="color: #9ca3b0;"></i></button>
+      </li>
+        
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="bi bi-square" style="color: #9ca3b0;"></i></button>
+      </li>
+    </ul>
 
-      <!-- Pages -->
-      <div class="tab-content" id="pills-tabContent">
-        <!-- Grid View -->
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-            <!-- Start of the container that will hold de grid -->
-            <div class="container-fluid">
-                <div class="row row-cols-3 g-2">
-                  <div class="col">
-                    <img src="https://picsum.photos/id/188/400/400" class="card-img-top" alt="...">
-                  </div>
-                  <div class="col">
-                    <img src="https://picsum.photos/id/566/400/400" class="card-img-top" alt="...">
-                  </div>
-                  <div class="col">
-                    <img src="https://picsum.photos/id/177/400/400" class="card-img-top" alt="...">
-                  </div>
-                </div>
-
-                <div class="row row-cols-3 g-2 mt-0">
-                    <div class="col">
-                      <img src="https://picsum.photos/id/35/400/400" class="card-img-top" alt="...">
-                    </div>
-                    <div class="col">
-                      <img src="https://picsum.photos/id/72/400/400" class="card-img-top" alt="...">
-                    </div>
-                    <div class="col">
-                      <img src="https://picsum.photos/id/235/400/400" class="card-img-top" alt="...">
-                    </div>
-                </div>
-
-                <div class="row row-cols-3 g-2 mt-0">
-                    <div class="col">
-                      <img src="https://picsum.photos/id/411/400/400" class="card-img-top" alt="...">
-                    </div>
-                    <div class="col">
-                      <img src="https://picsum.photos/id/192/400/400" class="card-img-top" alt="...">
-                    </div>
-                    <div class="col">
-                      <img src="https://picsum.photos/id/202/400/400" class="card-img-top" alt="...">
-                    </div>
-                </div>
-
+      
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="container-fluid">
+          <div class="row row-cols-3 g-2">
+            <div class="col">
+              <img src="https://picsum.photos/id/188/400/400" class="card-img-top" alt="...">
             </div>
-            <!-- End of the container that holds the grid -->
+            <div class="col">
+              <img src="https://picsum.photos/id/566/400/400" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+              <img src="https://picsum.photos/id/177/400/400" class="card-img-top" alt="...">
+            </div>
+          </div>
 
+          <div class="row row-cols-3 g-2 mt-0">
+            <div class="col">
+              <img src="https://picsum.photos/id/35/400/400" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+              <img src="https://picsum.photos/id/72/400/400" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+              <img src="https://picsum.photos/id/235/400/400" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+          <div class="row row-cols-3 g-2 mt-0">
+            <div class="col">
+              <img src="https://picsum.photos/id/411/400/400" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+               <img src="https://picsum.photos/id/192/400/400" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+              <img src="https://picsum.photos/id/202/400/400" class="card-img-top" alt="...">
+            </div>
+          </div>
         </div>
-        <!-- Single Post View -->
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-            <div class="container"></div>
             
-            <!-- 1st Post -->
+        </div>
+        
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> 
+             <!--1st Post  -->
             <div class="card mb-3 m-auto" style="max-width: 30rem;">
                 <div class="card-header pb-0">
                     <div class="row">
